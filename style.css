@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;  /*When this is added the padding and margin are included in object's width and height.
+    It means i have two classes and each one of them having same width and height but one has padding and the other does not, so
+    according to this the output should be two boxes having same width and height but actually it's different because when we have added
+    padding lets say of 100px then that 100px is added both on the width and height of the box making it bigger, while in the other case 
+    the output will have two boxes with same width and height as mentioned but also having a padding in one case.*/
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #ebf2ff;
+}
